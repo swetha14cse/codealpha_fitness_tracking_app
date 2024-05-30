@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.Register-container {
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+.Register-form {
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid #cea488;
+    border-radius: 8px;
+    background-color: burlywood; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Register-form div {
+    margin-bottom: 15px;
+}
+
+.Register-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Register-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.Register-form button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #2b7924; 
+    color: rgb(255, 254, 254);
+    border: none;
+    cursor:pointer;
+}
+
+.Register-form button:hover {
+    background-color: #71c479; 
+}
